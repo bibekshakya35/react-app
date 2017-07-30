@@ -6,6 +6,7 @@ export default class Layout extends React.Component{
            <div>
            <h1>Killerne</h1>
            <Link to="archives">archives</Link>
+           <Link to="settin"
            </div>
         );
     };
