@@ -1,11 +1,26 @@
 {
   "name": "rtsupport",
   "version": "1.0.0",
-  "description": "Realtime support system",
+  "description": "Realtime support frontend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "engines": {
+    "node": "10"
+  },
+  "author": "Bibek Shakya",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "fecha": "^2.3.3"
+  }
 }
