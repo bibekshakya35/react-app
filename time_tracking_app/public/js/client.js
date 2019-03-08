@@ -4,10 +4,7 @@ window.client = (function () {
             headers: {
                 Accept: 'application/json',
             }
-        })
-            .then(checkStatus)
-            .then(parseJSON)
-            .then(success);
+        }).then(checkStatus).then(parseJSON).then(success);
     }
     function createTimer(data) {
         return fetch('/api/timers', {

@@ -66,10 +66,10 @@ class ChannelSection extends React.Component {
             ]
         };
     }
-    addChannel(name){
-        const {channels} = this.state;
-        channels.push({name:name});
-        this.setState({channels});
+    addChannel(name) {
+        const { channels } = this.state;
+        channels.push({ name: name });
+        this.setState({ channels });
     }
     render() {
         return (
